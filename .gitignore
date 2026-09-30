@@ -1,0 +1,25 @@
+# Data cache
+src/yanks_analytics/data/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+anaconda_projects/
+
+# Local assistant settings
+.claude/

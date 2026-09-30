@@ -1,0 +1,28 @@
+[project]
+name = "yanks-analytics"
+version = "0.1.0"
+description = "Public-data case study of hitter development: which early signals carry forward, tested on a prospect cohort and four Yankees-developed hitters."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pybaseball>=2.2.0",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "pyarrow>=14",
+    "requests>=2.28",
+    "scikit-learn>=1.4",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

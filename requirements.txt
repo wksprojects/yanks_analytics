@@ -1,0 +1,17 @@
+# Pinned versions from the working environment (Python 3.13)
+# Install: pip install -r requirements.txt
+
+pandas==3.0.2
+numpy==2.4.4
+pyarrow==23.0.1
+pybaseball==2.2.7
+requests==2.33.1
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.8
+jupyter==1.1.1
+ipykernel==7.2.0
+
+# Dev dependencies
+ruff==0.15.8
+pytest==9.0.2
